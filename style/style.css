@@ -1,12 +1,19 @@
 /* -----Font------ */
 
+/*------------------ Poppins Font ------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Poppins:wght@200&display=swap');
+
+
+/*------------------ Manrope Font ------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Manrope:wght@200&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Poppins:wght@200&display=swap');
+
 
 
 /* -----Common Style----- */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
+    margin: 0%;
 }
 
 main{
@@ -215,7 +222,7 @@ Header Style------- */
 
 .feature-details{
     float: left;
-        padding-right: 48px;
+    padding-right: 48px;
 }
 .half-width1 h1{
     font-size: 38px;
@@ -239,5 +246,29 @@ Header Style------- */
 }
 
 
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
 
+.footer-style{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-details h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-details p{
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer-icons{
+    font-size: 28px;
+}
 
