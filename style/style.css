@@ -1,0 +1,73 @@
+/* -----Font------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Poppins:wght@200&display=swap');
+
+
+/* -----Common Style----- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------------
+Header Style------- */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.nav-title{
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.nav-list{
+    display: flex;
+    padding-right: 30px;
+
+}
+
+.list-item{
+    list-style: none;
+    margin-right: 34px;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: #3A3A3A ;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fa-search{
+    align-items: center;
+    margin-right: 34px;
+    font-size: 16px;
+
+}
+
+.fa-shopping-cart{
+    align-items: center;
+    font-size: 16px;
+}
+
+
+/* ------Main Style------ */
+
+.container{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.influencer-journey h1{
+    font-size: 520px;
+
+}
