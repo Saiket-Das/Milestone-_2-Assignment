@@ -1,4 +1,4 @@
-/* -----Font------ */
+/* -----Font Link------ */
 
 /*------------------ Poppins Font ------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&family=Pacifico&family=Poppins:wght@200&display=swap');
@@ -9,7 +9,7 @@
 
 
 
-/* -----Common Style----- */
+/* -----Common Style in BODY----- */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
@@ -457,8 +457,7 @@ footer{
 }
 
 
-/*-------- Featured Product ---------*/
-
+/*-------=- Featured Product ----------*/
 .container1{
     display: flex;
     flex-direction: column-reverse;
