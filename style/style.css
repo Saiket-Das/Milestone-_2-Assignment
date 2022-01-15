@@ -255,29 +255,29 @@ main{
 /*-------- Featured Product ---------*/
 
 .container1{
-    display: flex;
+    display: grid;
     margin-top: 100px;
+    background-color: white;
+    border: 40px solid white;
+    border-radius: 15px;
+    box-shadow: 10px 5px 35px black;
+    margin-bottom: 30px;
 }
 
 .half-width1{
-    width: 40%;
-    margin-left: 120px;
-    
-}
-
-.half-width1 img{
-        float: right;
-        padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
 }
 
 .feature-details{
-    float: left;
-    padding-right: 15px;
+    text-align: center;
+
 }
 .half-width1 h1{
     font-size: 38px;
     font-weight: 900;
-    margin: 0%;
+    margin: 3%;
 }
 
 .discription-para{
@@ -392,6 +392,7 @@ footer{
     margin-top: 30px;
     }
 
+
     .half-width img{
         width: 202px;
         height: 190px;
@@ -401,8 +402,7 @@ footer{
     .half-width1 h1{
         font-size: 38px;
         font-weight: 900;
-        margin: 0%;
-        padding-top: 5px;
+        padding-top: 0px;
 
     }
 
@@ -448,12 +448,25 @@ footer{
     grid-column-gap: 44px;
 }
 
+.see-more{
+    padding-top: 40px;
+    align-items: center;
+    color: #E02C6D;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 
 /*-------- Featured Product ---------*/
 
 .container1{
     display: flex;
     flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 0px solid white;
+border-radius: 0px;
+box-shadow: none;
 }
 
 .half-width1{
@@ -467,7 +480,6 @@ footer{
     width: 320px;
     height: 250px;
     justify-content: center;
-    padding-left: 70px;
 }
 
 .feature-details{
@@ -543,31 +555,34 @@ footer{
     
     
         /*--------- Influencer Journey ---------*/
+
         .container{
             display: flex;
             flex-direction: column-reverse;
-        }
-        
-        .half-width{
-        margin: auto;
-        width: 90%;
-        padding: 0px;
-        margin-top: 30px;
+            width: 100%;
         }
     
+        .half-width{
+            width: 50%;
+            margin: auto;
+            margin-top: 80px;
+        }
+        
         .half-width img{
-            width: 202px;
-            height: 190px;
+            width: 404px;
+            height: 380px;
         }
         
         
         .half-width1 h1{
-            font-size: 38px;
+            font-size: 30px;
             font-weight: 900;
             margin: 0%;
             padding-top: 5px;
     
         }
+
+        
     
     
     
@@ -611,27 +626,36 @@ footer{
         grid-column-gap: 44px;
     }
     
+    .see-more{
+        padding-right: 30px;
+        padding-top: 40px;
+        align-items: center;
+        color: #E02C6D;
+        font-weight: 700;
+        text-decoration: none;
+    }
     
     /*-------- Featured Product ---------*/
     
     .container1{
         display: flex;
         flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 100%;
+        border: 0px solid white;
+    border-radius: 0px;
+    box-shadow: none;
     }
     
     .half-width1{
-        margin: auto;
-        width: 90%;
-        padding: 10px;
+        align-content: center;
     }
     
     .half-width1 img{
         margin-top: 30px;
-        width: 520px;
-        height: 388px;
-        justify-content: center; 
-        margin-right: 70px;
-        margin-bottom: 20px;
+        width: 320px;
+        height: 250px;
+        justify-content: center;
     }
     
     .feature-details{
