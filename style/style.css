@@ -75,7 +75,7 @@ main{
     font-size: 16px;
 }
 
-a:hover {
+.list-item>a:hover {
     background-color: #E02C6D;
     padding: 4px 10px; 
     border-radius: 15px; 
@@ -136,7 +136,7 @@ a:hover {
     text-decoration: none; 
     background-color: #E02C6D;
     padding: 10px 24px; 
-    border: 0px solid;
+    margin-bottom: 32px;
     border-radius: 41px;
 }
 
@@ -309,11 +309,12 @@ footer{
 
 .footer-icons{
     font-size: 28px;
+    color: #E02C6D;
 }
 
 
 
-/* Mobile device */
+/*----------- Mobile device ------------*/
 
 @media screen and (max-width: 600px) {
 
@@ -333,6 +334,7 @@ footer{
 
     .nav-list{
         display: none;
+
     }
     .nav-title{
         width: 50%;
@@ -341,10 +343,18 @@ footer{
         justify-content: center;   
     }
 
+    .hidden{
+        display: flex;
+        padding-right:60px ;   
+    }
+    .hidden1{
+        display: flex;
+        padding-left: 70px; 
+    }
 
 
-    /*--------- Main Section --------*/
-    
+
+    /*--------- Main Section --------*/ 
     main{
         display: flex;
         justify-content: center;
@@ -353,8 +363,38 @@ footer{
         text-align: center;
     }
 
-    /*--------- Comapny Logo ---------*/
 
+
+    /*--------- Influencer Journey ---------*/
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .half-width{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    }
+
+    .half-width img{
+        width: 202px;
+        height: 190px;
+    }
+    
+    
+    .half-width1 h1{
+        font-size: 38px;
+        font-weight: 900;
+        margin: 0%;
+        padding-top: 5px;
+
+    }
+
+
+
+    /*--------- Comapny Logo ---------*/
 .company-container{
     margin-top: 51px;
     display: flex;
@@ -402,10 +442,14 @@ footer{
     flex-direction: column-reverse;
 }
 
-
+.half-width1{
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+}
 .half-width1 img{
     margin-top: 30px;
-    width: 299px;
+    width: 320px;
     height: 188px;
 
 }
@@ -420,3 +464,4 @@ footer{
     margin: 0%;
 }
 }
+
