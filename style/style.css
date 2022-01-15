@@ -330,7 +330,7 @@ footer{
 
 /*----------- Mobile device ------------*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
 
     body{
@@ -465,8 +465,9 @@ footer{
 .half-width1 img{
     margin-top: 30px;
     width: 320px;
-    height: 188px;
+    height: 250px;
     justify-content: center;
+    padding-left: 70px;
 }
 
 .feature-details{
@@ -480,8 +481,10 @@ footer{
 }
 
 footer{
-    margin: 0;
+    margin: 0%;
+    margin-top: 30px;
 }
+
 }
 
 
@@ -491,7 +494,7 @@ footer{
 
 /* ---------Tab Device---------- */
 
-@media screen and (min-width: 600px) and (max-width: 900px){
+@media screen and (min-width: 651px) and (max-width: 999px){
 
         body{
             width: 100%;
@@ -618,7 +621,7 @@ footer{
     
     .half-width1{
         margin: auto;
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
     
@@ -627,7 +630,7 @@ footer{
         width: 520px;
         height: 388px;
         justify-content: center; 
-        margin-right: 100px;
+        margin-right: 70px;
         margin-bottom: 20px;
     }
     
