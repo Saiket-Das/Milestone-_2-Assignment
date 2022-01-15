@@ -38,6 +38,8 @@ main{
     font-weight: 700;
 }
 
+
+/*-------- Title & Background Animation --------*/
 .nav-title::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -73,11 +75,12 @@ main{
     color: #3A3A3A ;
     font-weight: 600;
     font-size: 16px;
+    padding: 4px 10px; 
+
 }
 
 .list-item>a:hover {
     background-color: #E02C6D;
-    padding: 4px 10px; 
     border-radius: 15px; 
 }
 
@@ -131,13 +134,24 @@ main{
     margin-bottom: 32px;
 }
 
-.half-width a{
+.now-hover{
     color: white;
     text-decoration: none; 
     background-color: #E02C6D;
     padding: 10px 24px; 
     margin-bottom: 32px;
     border-radius: 41px;
+}
+
+.now-hover{
+    transition: transform.1s ease-in;
+}
+.now-hover:hover{
+    background: linear-gradient(45deg, rgb(0, 195, 255), rgb(255, 0, 140));
+}
+
+.now-hover:hover i, a{
+    transform: translate(2px);
 }
 
 .half-width img{
@@ -604,16 +618,16 @@ footer{
     
     .half-width1{
         margin: auto;
-        width: 90%;
+        width: 100%;
         padding: 10px;
     }
     
     .half-width1 img{
         margin-top: 30px;
-        width: 320px;
-        height: 188px;
+        width: 520px;
+        height: 388px;
         justify-content: center; 
-        margin-right: 200px;
+        margin-right: 100px;
         margin-bottom: 20px;
     }
     
