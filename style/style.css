@@ -75,13 +75,10 @@ main{
     font-size: 16px;
 }
 
-li>a:after{
-    content: "";
-    position: absolute;
-    background-color: E02C6D;
-    height: 3px;
-    width: 100%;
-    bottom: -10px;
+a:hover {
+    background-color: #E02C6D;
+    padding: 4px 10px; 
+    border-radius: 15px; 
 }
 
 .fa-search{
@@ -104,6 +101,7 @@ li>a:after{
 .hidden1{
     display: none;
 }
+
 
 
 /* ------Main Style------ */
@@ -138,7 +136,7 @@ li>a:after{
     text-decoration: none; 
     background-color: #E02C6D;
     padding: 10px 24px; 
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 41px;
 }
 
@@ -279,7 +277,7 @@ li>a:after{
     text-decoration: none; 
     background-color: #E02C6D;
     padding: 10px 24px; 
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 41px;
 }
 
